@@ -1,0 +1,62 @@
+/* Load fonts */
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Text Presets (from Figma design system) */
+.text-preset-1 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.text-preset-5 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+}

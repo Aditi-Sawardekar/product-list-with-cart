@@ -3,7 +3,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 export default function ProductPage() {
   return (
     <>
-      <h2 className="text-preset-2">Product Page</h2>
+      <h1 className="text-preset-1">Desserts</h1>
       <ProductCard />
     </>
   );

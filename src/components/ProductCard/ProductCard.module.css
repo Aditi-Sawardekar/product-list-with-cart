@@ -1,0 +1,13 @@
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardMediaContainer {
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+.cardImage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 327 / 212; /* height: 212px */
+  object-fit: cover;
+  border-radius: 8px;
+}

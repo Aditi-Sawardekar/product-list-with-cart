@@ -1,0 +1,15 @@
+/* px-to-rem conversions are based on a root font size of 16px */
+
+.cardButton {
+  background-color: hsl(0, 0%, 100%);
+  width: 10rem; /* 160px */
+  height: 2.75rem; /* 44px */
+  border-radius: 9999px;
+  border: 1px solid hsl(7, 20%, 60%);
+  margin-top: -22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}

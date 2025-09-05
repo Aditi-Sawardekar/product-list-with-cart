@@ -1,5 +1,9 @@
 import styles from "./CardCategory.module.css";
 
-export default function CardCategory() {
-  return <h3 className={`text-preset-4 ${styles.cardCategory}`}>Waffle</h3>;
+interface CardCategoryProps {
+  category: string;
+}
+
+export default function CardCategory({ category }: CardCategoryProps) {
+  return <h3 className={`text-preset-4 ${styles.cardCategory}`}>{category}</h3>;
 }

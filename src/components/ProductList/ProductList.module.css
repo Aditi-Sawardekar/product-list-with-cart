@@ -1,0 +1,7 @@
+/* px-to-rem conversions are based on a root font size of 16px */
+
+.productList {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 1.5rem;
+}

@@ -6,18 +6,38 @@ import CardTitle from "../CardTitle/CardTitle";
 
 import styles from "./ProductCard.module.css";
 
-export default function ProductCard() {
+interface ProductProps {
+  id: number;
+  image: {
+    thumbnail: string;
+    mobile: string;
+    tablet: string;
+    desktop: string;
+  };
+  name: string;
+  category: string;
+  price: number;
+}
+
+interface ProductCardProps {
+  product: ProductProps;
+}
+
+export default function ProductCard({ product }: ProductCardProps) {
   return (
     <article className={styles.cardContainer}>
       <div className={styles.cardMediaContainer}>
-        <CardImage />
-        <CardButton />
+        <CardImage
+          src={product.image.mobile}
+          alt={`Image of ${product.name}`}
+        />
+        <CardButton label="Add to Cart" />
       </div>
 
       <div className={styles.cardContentContainer}>
-        <CardCategory />
-        <CardTitle />
-        <CardPrice />
+        <CardCategory category={product.category} />
+        <CardTitle title={product.name} />
+        <CardPrice currency="$" amount={product.price} />
       </div>
     </article>
   );

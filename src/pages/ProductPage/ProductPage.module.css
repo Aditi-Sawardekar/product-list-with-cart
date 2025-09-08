@@ -3,9 +3,9 @@
 .pageContainer {
   background-color: hsl(20, 58%, 98%);
 
-  /* Make the container span full width but limit maximum width to 48rem (768px)*/
+  /* Make the container span full width but limit maximum width to 41.875rem (670px)*/
   width: 100%;
-  max-width: 48rem;
+  max-width: 41.875rem;
 
   /* Ensure the container takes at least the full viewport height */
   min-height: 100vh;

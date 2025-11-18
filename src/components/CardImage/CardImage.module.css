@@ -5,3 +5,9 @@
   object-fit: cover;
   border-radius: 8px;
 }
+
+@media (min-width: 768px) {
+  .cardImage {
+    aspect-ratio: 213.28 / 212;
+  }
+}

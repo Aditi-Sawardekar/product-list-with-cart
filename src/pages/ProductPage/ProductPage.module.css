@@ -15,10 +15,21 @@
   align-items: center;
   justify-content: flex-start;
   gap: 2rem; /* 32px */
-  padding: 1.5rem; /* 24px */
+
+  padding: 1.5rem 0; /* 24px */
 }
 
 .pageHeading {
   color: hsl(14, 65%, 9%);
   align-self: start;
+}
+
+@media (min-width: 768px) {
+  .pageContainer {
+    width: 100%;
+    max-width: none;
+    padding: 2.5rem 0; /* 40px */
+
+    flex-grow: row wrap;
+  }
 }

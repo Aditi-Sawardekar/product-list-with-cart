@@ -12,5 +12,5 @@ export default function ProductList() {
     );
   });
 
-  return <ul>{productList}</ul>;
+  return <ul className={styles.listContainer}>{productList}</ul>;
 }
